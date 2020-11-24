@@ -20,8 +20,17 @@ A Easiest way to start learning algorithms and data structures without surfing t
    
     
    
-   pythorn.data_structures
-   pythorn.algorithms
+   stack
+   queue
+   linked_list
+   recursion
+   searching
+   sorting
+   trees
+   graph
+   dynamic_programming
+   greedy_algorithm
+   string_matching
 
 
 
