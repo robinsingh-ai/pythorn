@@ -4,19 +4,19 @@
 
 - Data Structres
  
-    - [ ] Stack
-    - [ ] Queues
-    - [ ] Linked Lists
-    - [ ] Searching 
-    - [ ] Sorting
-    - [ ] Trees
-    - [ ] Graphs
+    - [x] Stack
+    - [x] Queues
+    - [x] Linked Lists
+    - [x] Searching 
+    - [x] Sorting
+    - [x] Trees
+    - [x] Graphs
 
 - Algorithms
-    - [ ] Greedy Algorithms 
-    - [ ] Dynamic Programming
-    - [ ] Backtracking
-    - [ ] String Matching
+    - [x] Greedy Algorithms 
+    - [x] Dynamic Programming
+    - [x] Backtracking
+    - [x] String Matching
 
 
 ### TESTS
