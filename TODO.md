@@ -15,7 +15,7 @@
 - Algorithms
     - [x] Greedy Algorithms 
     - [x] Dynamic Programming
-    - [x] Backtracking
+    - [ ] Backtracking
     - [x] String Matching
 
 
