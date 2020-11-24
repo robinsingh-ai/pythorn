@@ -1,46 +1,29 @@
 =========
-Pygorithm
+Pythorn
 =========
 
 Introduction
-------------
+-------------
 
-``Pygorithm``: A fun way to learn algorithms on the go! Just import the module and start learning, it's that easy.
+``Pythorn``: A python module that contains Python-based minimal and clean example implementations of popular data structures and all major algorithms!! Mainly for educational purposes
 
-A Python module written in pure python and for purely educational purposes.
-Get the code, time complexities and much more by just importing the required algorithm. A good way to start
-learning Python programming. Learn implementation of all major algorithms in Python.
-No need to surf the internet to get the required code. Just install this module and get going.
+Features!
 
+A python module written in python having all the major algorithms and claen data structure implementaions.
+Get the code, time complexities and much more by just importing the required algorithm.
+A Easiest way to start learning algorithms and data structures without surfing the internet.
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Documentation:
+   
     
-   data_structures
-   dynamic_programming
-   greedy_algorithm
+   
    pythorn.data_structures
    pythorn.algorithms
 
-Quick Start Guide
------------------
 
-* Download and install the Python package. `Installation instructions <http://pygorithm.readthedocs.io/en/latest/#getting-started>`_
-* Just import the required algorithm and start learning
-
-.. code-block:: python
-
-    from pygorithm.sorting import bubble_sort
-
-    # This will print the code for bubble sort
-    print(bubble_sort.get_code())
-
-    my_list = [12, 4, 2, 14, 3, 7, 5]
-
-    # to sort the list
-    sorted_list = bubble_sort.sort(my_list)
 
 Getting Started
 ---------------
@@ -49,10 +32,10 @@ Getting Started
 
 ::
 
-    pip3 install pygorithm
+    pip install pythorn
 
-* For Python 2, you can use pip instead.
-* Or you can download the source code from `here <https://github.com/OmkarPathak/pygorithm>`_, and then just install the package using
+
+* Or you can download the source code from `here <https://github.com/robin025/pythorn>`_, and then just install the package using
 
 ::
 
