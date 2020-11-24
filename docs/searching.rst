@@ -43,12 +43,14 @@ Searching Programs
 
 .. automodule:: pythorn.data_structures.searching
     
+    
 
     Binary Search
     -------------
 
     .. autoclass:: BinarySearch
-       :members:
+          
+         :members:
 
 
 
@@ -57,8 +59,7 @@ Searching Programs
             
 
     .. autoclass:: FibonacciSearch
-        
-       :members:
+         :members:
 
 
     Interpolation Search
@@ -66,8 +67,7 @@ Searching Programs
             
 
     .. autoclass:: InterpolationSearch
-        
-       :members:
+         :members:
 
 
     Jump Search
@@ -75,8 +75,7 @@ Searching Programs
             
 
     .. autoclass:: JumpSearch
-        
-       :members:
+         :members:
 
 
     Linear Search
@@ -84,8 +83,7 @@ Searching Programs
             
 
     .. autoclass:: LinearSearch
-        
-       :members:
+         :members:
 
 
 
