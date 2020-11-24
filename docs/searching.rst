@@ -2,7 +2,7 @@ Searching Algorithms
 ====================
 
 Quick Start Guide
------------------
+------------------
 
 +------------------------+------------------------------------------+
 |  Searching Algorithms  |             Time Complexity              | 

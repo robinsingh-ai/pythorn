@@ -3,7 +3,7 @@ String Matching
 
 
 Quick Start Guide
------------------
+------------------
 
 
 

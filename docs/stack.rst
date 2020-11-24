@@ -2,7 +2,7 @@ Stack
 =====
 
 Quick Start Guide
------------------
+------------------
 
 .. code-block:: python
 

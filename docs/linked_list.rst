@@ -3,7 +3,7 @@ Linked List
 
 
 Quick Start Guide
------------------
+------------------
 
 
 .. code-block:: python

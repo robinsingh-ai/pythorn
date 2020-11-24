@@ -2,7 +2,7 @@ Greedy Algorithms
 =================
 
 Quick Start Guide
------------------
+------------------
 
 
 Time Complexity 
