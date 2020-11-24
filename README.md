@@ -10,7 +10,7 @@ Mainly for educational purposes
 
 ## Features!
 
-  - Easy Documentation
+  - Easy [Documentation](https://pythorn.readthedocs.io/en/latest/)
   - Time complexities on the go
   - Get the code right in your editor
 
