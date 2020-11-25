@@ -34,28 +34,11 @@ Quick Start Guide
 
 
 
-Stack Programs
---------------
-.. automodule:: pythorn.data_structures.stack
-
-    Stack
-    -----
-
-    .. autoclass:: Stack
-       :members:
-
-
-    Infix To Postfix
-    ----------------
-    
-    .. autoclass:: Infix_Postfix
-            :members:
-    
-        Example 
+Example Code for Infix To Postfix
             .. code-block:: python
 
                 # importing Stack and Infix_Postfix
-                from pythorn.data_structures.stack import Stack 
+                >>> from pythorn.data_structures.stack import Stack 
                 from pythorn.data_structures.stack import Infix_Postfix
 
                 # creating a stack
@@ -68,18 +51,9 @@ Stack Programs
                 infixpostfix = Infix_Postfix(my_exp,my_stack)
                 infixpostfix.infixToPostfix()
                 'a c + * d s e f j / - - / j k / +'
-            
-            
-    
-
-    Integer To Binary
-    -----------------
-    
-    .. autoclass:: Integer_Binary
-        
-       :members:
-
-    Example 
+                
+                
+Example Code for Integer To Binary
         .. code-block:: python
 
             # importing Stack and Integer_Binary
@@ -97,6 +71,35 @@ Stack Programs
             >>> integerbinary.IntegerBinary()
             '101101'
             
+
+
+Stack Programs
+--------------
+.. automodule:: pythorn.data_structures.stack
+
+    Stack
+    -----
+
+    .. autoclass:: Stack
+       :members:
+
+
+    Infix To Postfix
+    ----------------
+    
+    .. autoclass:: Infix_Postfix
+            :members:
+    
+        
+            
+    Integer To Binary
+    -----------------
+    
+    .. autoclass:: Integer_Binary
+        
+       :members:
+
+    
 
     
 
