@@ -36,7 +36,6 @@ Quick Start Guide
 
 Stack Programs
 --------------
-
 .. automodule:: pythorn.data_structures.stack
 
     Stack
@@ -48,8 +47,8 @@ Stack Programs
 
     Infix To Postfix
     ----------------
-
-    Example :
+    
+    Example 
         .. code-block:: python
 
             # importing Stack and Infix_Postfix
@@ -66,13 +65,24 @@ Stack Programs
             >>> infixpostfix = Infix_Postfix(my_exp,my_stack)
             >>> infixpostfix.infixToPostfix()
             'a c + * d s e f j / - - / j k / +'
+            
+            
+Program
+-----------------
+        
+        .. autoclass:: Infix_Postfix
+            :members:
+        
+        
+            
+    
+    
+    
+    
 
-
-
-    .. autoclass:: Infix_Postfix
-
-       :members:
-
+    
+            
+    
 
     Integer To Binary
     -----------------
