@@ -88,7 +88,8 @@ Stack Programs
     ----------------
     
     .. autoclass:: Infix_Postfix
-            :members:
+       :members:
+    
     
         
             
@@ -96,7 +97,8 @@ Stack Programs
     -----------------
     
     .. autoclass:: Integer_Binary
-            :members:
+       :members:
+    
 
     
 
