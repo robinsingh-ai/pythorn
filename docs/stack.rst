@@ -96,8 +96,7 @@ Stack Programs
     -----------------
     
     .. autoclass:: Integer_Binary
-        
-       :members:
+            :members:
 
     
 
