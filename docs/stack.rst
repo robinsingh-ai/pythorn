@@ -48,46 +48,38 @@ Stack Programs
     Infix To Postfix
     ----------------
     
-    Example 
-        .. code-block:: python
-
-            # importing Stack and Infix_Postfix
-            >>> from pythorn.data_structures.stack import Stack 
-            >>> from pythorn.data_structures.stack import Infix_Postfix
-
-            # creating a stack
-            >>> my_stack = Stack()
-
-            # My Expression
-            >>> my_exp = "a+c-*/dsefj-+//jk"
-
-            # passing stack and expression to the Infix_Postfix class
-            >>> infixpostfix = Infix_Postfix(my_exp,my_stack)
-            >>> infixpostfix.infixToPostfix()
-            'a c + * d s e f j / - - / j k / +'
-            
-            
-Program
------------------
-        
-        .. autoclass:: Infix_Postfix
+    .. autoclass:: Infix_Postfix
             :members:
-        
-        
-            
     
-    
-    
-    
+        Example 
+            .. code-block:: python
 
-    
+                # importing Stack and Infix_Postfix
+                from pythorn.data_structures.stack import Stack 
+                from pythorn.data_structures.stack import Infix_Postfix
+
+                # creating a stack
+                my_stack = Stack()
+
+                # My Expression
+                my_exp = "a+c-*/dsefj-+//jk"
+
+                # passing stack and expression to the Infix_Postfix class
+                infixpostfix = Infix_Postfix(my_exp,my_stack)
+                infixpostfix.infixToPostfix()
+                'a c + * d s e f j / - - / j k / +'
+            
             
     
 
     Integer To Binary
     -----------------
+    
+    .. autoclass:: Integer_Binary
+        
+       :members:
 
-    Example :
+    Example 
         .. code-block:: python
 
             # importing Stack and Integer_Binary
@@ -106,9 +98,7 @@ Program
             '101101'
             
 
-    .. autoclass:: Integer_Binary
-        
-       :members:
+    
 
 
 
