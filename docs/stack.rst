@@ -3,14 +3,14 @@ Stack
 
 Quick Start Guide
 ------------------
-`Stack`__:- Stack is linear data structure which follows a particular order in which the operations are pewformed.The order maybe LIFO or FILO which Stands for "Last in First out" or "First in Last out" respectively.
-`Operations of stack`__:-
-`Push`__:- Inserts an element in the stack. Stack is said to be in Overflow condition if its full. 
-`Pop`__:- Removes an item from the stack. The items are removed in opposite order they are inserted i.e item on the top is popped first and item on bottom is popped last. Stack is said to be in Underflow condition if its empty.
-`top`__:- Returns top element of stack. 
-`isEmpty`__:- Returns true if stack is empty, else returns false. 
-`Infix expression`__:- The expression of the form a op(operator) b.When an operator is in between every pair of operands.
-`postfix`__:- the expression of the form a b op. When an operator is follwed for every pair of operands. 
+`Stack`__:- Stack is linear data structure which follows a particular order in which the operations are pewformed.The order maybe LIFO or FILO which Stands for "Last in First out" or "First in Last out" respectively.|
+`Operations of stack`__:- |
+`Push`__:- Inserts an element in the stack. Stack is said to be in Overflow condition if its full. |
+`Pop`__:- Removes an item from the stack. The items are removed in opposite order they are inserted i.e item on the top is popped first and item on bottom is popped last. Stack is said to be in Underflow condition if its empty.|
+`top`__:- Returns top element of stack. |
+`isEmpty`__:- Returns true if stack is empty, else returns false. |
+`Infix expression`__:- The expression of the form a op(operator) b.When an operator is in between every pair of operands.|
+`postfix`__:- the expression of the form a b op. When an operator is follwed for every pair of operands. |
 
 .. code-block:: python
 
