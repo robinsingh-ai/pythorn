@@ -3,14 +3,14 @@ Stack
 
 Quick Start Guide
 ------------------
-|br|`Stack`_:- Stack is linear data structure which follows a particular order in which the operations are pewformed.The order maybe LIFO or FILO which Stands for "Last in First out" or "First in Last out" respectively.
-|br|`Operations of stack`_:-
-|br|`Push`_:- Inserts an element in the stack. Stack is said to be in Overflow condition if its full. 
-|br|`Pop`_:- Removes an item from the stack. The items are removed in opposite order they are inserted i.e item on the top is popped first and item on bottom is popped last. Stack is said to be in Underflow condition if its empty.
-|br|`top`_:- Returns top element of stack. 
-|br|`isEmpty`_:- Returns true if stack is empty, else returns false. 
-|br|`Infix expression`_:- The expression of the form a op(operator) b.When an operator is in between every pair of operands.
-|br|`postfix`_:- the expression of the form a b op. When an operator is follwed for every pair of operands. 
+|br| raw:: html <br />`Stack`_:- Stack is linear data structure which follows a particular order in which the operations are pewformed.The order maybe LIFO or FILO which Stands for "Last in First out" or "First in Last out" respectively.
+|br| raw:: html <br />`Operations of Stack:-
+|br| raw:: html <br />`Push`_:- Inserts an element in the stack. Stack is said to be in Overflow condition if its full. 
+|br| raw:: html <br />`Pop`_:- Removes an item from the stack. The items are removed in opposite order they are inserted i.e item on the top is popped first and item on bottom is popped last. Stack is said to be in Underflow condition if its empty.
+|br| raw:: html <br />`top`_:- Returns top element of stack. 
+|br| raw:: html <br />`isEmpty`_:- Returns true if stack is empty, else returns false. 
+|br| raw:: html <br />`Infix expression`_:- The expression of the form a op(operator) b.When an operator is in between every pair of operands.
+|br| raw:: html <br />`postfix expression`_:- The expression of the form a b op. When an operator is follwed for every pair of operands. 
 
 .. code-block:: python
 
