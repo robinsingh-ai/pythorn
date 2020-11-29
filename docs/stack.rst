@@ -3,7 +3,7 @@ Stack
 
 Quick Start Guide
 ------------------
-``Stack`` :- Stack is linear data structure which follows a particular order in which the operations are pewformed.The order maybe LIFO or FILO which Stands for "Last in First out" or "First in Last out" respeectively.
+``Stack`` :- Stack is linear data structure which follows a particular order in which the operations are performed.The order maybe LIFO or FILO which Stands for "Last in First out" or "First in Last out" respectively.
 
 
 A stack allows access to only one data item: the last item inserted. If you remove this item, you can access the next-to-last item inserted, and so on.
