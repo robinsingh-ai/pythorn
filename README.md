@@ -28,5 +28,5 @@ pip install pythorn
 If you want to uninstall algorithms, it is as simple as:
 
 ```sh
-pip3 uninstall -y pythorn
+pip uninstall  pythorn
 ```
