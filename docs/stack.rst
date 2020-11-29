@@ -3,22 +3,20 @@ Stack
 
 Quick Start Guide
 ------------------
-`Stack`_ :- Stack is linear data structure which follows a particular order in which the operations are pewformed.The order maybe LIFO or FILO which Stands for "Last in First out" or "First in Last out" respectively.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-`Operations of Stack:-
-----------------------
-`Push`_ :- Inserts an element in the stack. Stack is said to be in Overflow condition if its full. 
---------------------------------------------------------------------------------------------------
-`Pop`_ :- Removes an item from the stack. The items are removed in opposite order they are inserted i.e item on the top is popped first and item on bottom is popped last. Stack is said to be in Underflow condition if its empty.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-`top`_ :- Returns top element of stack.
----------------------------------------
-`isEmpty`_ :- Returns true if stack is empty, else returns false.
------------------------------------------------------------------
-`Infix expression`_ :- The expression of the form a op(operator) b.When an operator is in between every pair of operands.
--------------------------------------------------------------------------------------------------------------------------
-`postfix expression`_ :- The expression of the form a b op. When an operator is follwed for every pair of operands.
--------------------------------------------------------------------------------------------------------------------
+``Stack`` :- Stack is linear data structure which follows a particular order in which the operations are pewformed.The order maybe LIFO or FILO which Stands for "Last in First out" or "First in Last out" respeectively.
+
+
+A stack allows access to only one data item: the last item inserted. If you remove this item, you can access the next-to-last item inserted, and so on.
+
+
+A stack is also a handy aid for algorithms applied to certain complex data structures. In "Binary Trees", we’ll see it used to help traverse the nodes of a tree.
+
+
+Notice how the order of the data is reversed. Because the last item pushed is the first one popped.
+
+
+commonly implemented with linked lists but can be made from arrays too.
+
 
 .. code-block:: python
 
