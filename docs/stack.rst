@@ -1,21 +1,10 @@
-Stack
-=====
-
-Quick Start Guide
-------------------
-``Stack`` :- Stack is linear data structure which follows a particular order in which the operations are performed.The order maybe LIFO or FILO which Stands for "Last in First out" or "First in Last out" respectively.
+``Stack`` :- Stack is linear data structure which follows a particular order in which the operations are pewformed.The order maybe LIFO or FILO which Stands for "Last in First out" or "First in Last out" respectively.
 
 
-A stack allows access to only one data item: the last item inserted. If you remove this item, you can access the next-to-last item inserted, and so on.
+``Infix expression`` :- The expression of the form a op(operator) b.When an operator is in between every pair of operands.
 
 
-A stack is also a handy aid for algorithms applied to certain complex data structures. In "Binary Trees", we’ll see it used to help traverse the nodes of a tree.
-
-
-Notice how the order of the data is reversed. Because the last item pushed is the first one popped.
-
-
-commonly implemented with linked lists but can be made from arrays too.
+``postfix expression`` :- The expression of the form a b op. When an operator is follwed for every pair of operands.
 
 
 .. code-block:: python
@@ -24,42 +13,54 @@ commonly implemented with linked lists but can be made from arrays too.
     # import the required data structure
     >>> from pythorn.data_structures.stack import Stack
 
+
     # creating a stack
     >>> a = Stack()
+
 
     # push elements
     >>> a.push(5)
     >>> a.push(20)
     >>> a.push(13)
 
+
     # displaying full stack
     >>> a.display()
     [5, 20, 13]
+
 
     # top element
     >>> a.tos()
     13
 
+
     # poping the element
     >>> a.pop()
     13
+
+
     >>> a.isEmpty()
     False
 
 
-
 Example Code for Infix To Postfix
+
+
             .. code-block:: python
+
 
                 # importing Stack and Infix_Postfix
                 >>> from pythorn.data_structures.stack import Stack 
                 from pythorn.data_structures.stack import Infix_Postfix
 
+
                 # creating a stack
                 my_stack = Stack()
 
+
                 # My Expression
                 my_exp = "a+c-*/dsefj-+//jk"
+
 
                 # passing stack and expression to the Infix_Postfix class
                 infixpostfix = Infix_Postfix(my_exp,my_stack)
@@ -68,35 +69,37 @@ Example Code for Infix To Postfix
                 
                 
 Example Code for Integer To Binary
+
+
         .. code-block:: python
+
 
             # importing Stack and Integer_Binary
             >>> from pythorn.data_structures.stack import Stack 
             >>> from pythorn.data_structures.stack import Integer_Binary
 
+
             # creating a stack
             >>> my_stack = Stack()
 
+
             # My Number
             >>> my_num = 45
+
 
             # passing my_stack and my_num to the Integer_Binary class
             >>> integerbinary = Integer_Binary(my_num,my_stack)
             >>> integerbinary.IntegerBinary()
             '101101'
             
-
-
 Stack Programs
 --------------
 .. automodule:: pythorn.data_structures.stack
-
     Stack
     -----
 
     .. autoclass:: Stack
        :members:
-
 
     Infix To Postfix
     ----------------
@@ -112,8 +115,6 @@ Stack Programs
     
     .. autoclass:: Integer_Binary
        :members:
-    
-
     
 
     
