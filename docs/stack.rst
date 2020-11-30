@@ -101,7 +101,7 @@ Stack Programs
     ----------------
     
     .. autoclass:: Infix_Postfix
-       :members:
+        :members:
     
     
         
@@ -110,7 +110,7 @@ Stack Programs
     -----------------
     
 
-   Example Code for Integer To Binary
+    Example Code for Integer To Binary
         .. code-block:: python
 
             # importing Stack and Integer_Binary
@@ -128,8 +128,8 @@ Stack Programs
             >>> integerbinary.IntegerBinary()
             '101101'
             
-   .. autoclass:: Integer_Binary
-       :members:
+    .. autoclass:: Integer_Binary
+        :members:
     
 
     
