@@ -83,24 +83,7 @@ Example Code for Infix To Postfix
                 'a c + * d s e f j / - - / j k / +'
                 
                 
-Example Code for Integer To Binary
-        .. code-block:: python
 
-            # importing Stack and Integer_Binary
-            >>> from pythorn.data_structures.stack import Stack 
-            >>> from pythorn.data_structures.stack import Integer_Binary
-
-            # creating a stack
-            >>> my_stack = Stack()
-
-            # My Number
-            >>> my_num = 45
-
-            # passing my_stack and my_num to the Integer_Binary class
-            >>> integerbinary = Integer_Binary(my_num,my_stack)
-            >>> integerbinary.IntegerBinary()
-            '101101'
-            
 
 
 Stack Programs
@@ -126,7 +109,26 @@ Stack Programs
     Integer To Binary
     -----------------
     
-    .. autoclass:: Integer_Binary
+
+   Example Code for Integer To Binary
+        .. code-block:: python
+
+            # importing Stack and Integer_Binary
+            >>> from pythorn.data_structures.stack import Stack 
+            >>> from pythorn.data_structures.stack import Integer_Binary
+
+            # creating a stack
+            >>> my_stack = Stack()
+
+            # My Number
+            >>> my_num = 45
+
+            # passing my_stack and my_num to the Integer_Binary class
+            >>> integerbinary = Integer_Binary(my_num,my_stack)
+            >>> integerbinary.IntegerBinary()
+            '101101'
+            
+   .. autoclass:: Integer_Binary
        :members:
     
 
