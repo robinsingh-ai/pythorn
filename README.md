@@ -1,5 +1,5 @@
 # Pythorn
-
+[![Downloads](https://static.pepy.tech/personalized-badge/pythorn?period=total&units=international_system&left_color=black&right_color=blue&left_text=Downloads)](https://pepy.tech/project/pythorn)
  [![Python](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
 Pythorn is a python module that contains Python-based minimal and clean example  implementations of popular data structures and all major algorithms!!
