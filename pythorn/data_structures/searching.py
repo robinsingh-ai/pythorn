@@ -38,30 +38,6 @@ class BinarySearch(object):
 
         :return: index of key if its found in the sorted list else returns false
 
-        Example :
-        A = [5  9   10  45  65  78  98  102 1045]
-        Key  = 11
-
-        a = BinarySearch(A,11)
-        a.binary_search()
-
-        Solution :
-        Not Present
-
-        ==============================================
-
-
-        A = [5  9   10  45  65  78  98  102 1045]
-        Key  = 65
-
-        a = BinarySearch(A,65)
-        a.binary_search()
-
-
-        Solution :
-
-        Element is Present at index  : 4
-
         """
         low = 0
         high = len(self.array) - 1
@@ -103,7 +79,7 @@ class FibonacciSearch(object):
 
     On Avg , fibonacci search require 4% more comparisons than binary search
 
-    :return: index of key if its found in the sorted list else returns false
+
 
     """
 
@@ -117,6 +93,9 @@ class FibonacciSearch(object):
         self.key = key
 
     def fibonacci_search(self):
+        """
+        :return: index of key if its found in the sorted list else returns false
+        """
 
         m = 0
         # Imported fibonacci function from recursion.py
@@ -174,7 +153,7 @@ class InterpolationSearch(object):
     for example : if the value of the key is closer to the last element ,interpolation search is likely to 
     start towards the end side.
 
-    :return: index of key if its found in the sorted list else returns false
+
 
     """
 
@@ -190,6 +169,9 @@ class InterpolationSearch(object):
         self.key = key
 
     def interpolation_search(self):
+        """
+        :return: index of key if its found in the sorted list else returns false
+        """
 
         l = 0
         h = self.length-1
@@ -249,7 +231,7 @@ class JumpSearch(object):
     Once we find the interval (array[km] < X < array[(k+1)m]),we perform a linear search 
     operation from the index km to find the element x.
 
-    :return: index of key if its found in the sorted list else returns false
+
 
     Example : 
     let array : [0,2,6,8,10,21,34,66,89,120,124,300,350,500,549,600]
@@ -278,6 +260,9 @@ class JumpSearch(object):
         self.key = key
 
     def jump_search(self):
+        """
+        :return: index of key if its found in the sorted list else returns false
+        """
         low = 0
         jump = int(math.sqrt(len(self.array)))
         for i in range(0, len(self.array), jump):
@@ -321,7 +306,6 @@ class LinearSearch(object):
 
     This is one of the most basic search algorithm
 
-    :return: index of key if its found in the list else returns false
 
 
 
@@ -337,6 +321,10 @@ class LinearSearch(object):
         self.key = key
 
     def linear_search(self):
+        """
+        :return: index of key if its found in the list else returns false
+
+        """
         i = 0
         while i < len(self.array):
             if self.key == self.array[i]:
