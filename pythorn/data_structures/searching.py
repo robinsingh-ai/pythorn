@@ -33,10 +33,7 @@ class BinarySearch(object):
         """
         Implementation of Binary Search Recursive Method
 
-        Below function perform an binary search on a sorted list
-        and returns the index of the item if it;s present else returns false
 
-        :return: index of key if its found in the sorted list else returns false
 
         """
         low = 0
@@ -74,10 +71,7 @@ class FibonacciSearch(object):
     """
     Fibonacci Search Implementation
 
-    Fibonacci search is an efficient search algorithm based on divide and conquer principle that
-    can find an element in the given sorted array with the help of fibonacci series in O(Logn) time complexity.
 
-    On Avg , fibonacci search require 4% more comparisons than binary search
 
 
 
@@ -144,14 +138,7 @@ class InterpolationSearch(object):
     """
     Interpolation Search Implementation
 
-    Interpoaltion search algorithm is a search algorithm that has been inspired by the way humans search 
-    through a telephone book for a particular name,the key value by which book's entries are ordered.
 
-    It is an improvement above binary search, in binary search ,we always move to the middle element 
-    whereas interpolation search moves to a different element in order to reduce the search space further.
-
-    for example : if the value of the key is closer to the last element ,interpolation search is likely to 
-    start towards the end side.
 
 
 
@@ -219,34 +206,6 @@ class JumpSearch(object):
     """
     Jump Search Implementation
 
-    Like binary search, Jump search is a searching algorithm for sorted array.
-
-    The basic idea is to check fewer elements by jumping ahead by fixed steps or skipping
-    some elements in the place of searching all elements
-
-    For example : 
-    suppose we have an array[] of size n and block (to be jumped ) size m . then we search
-    at the indexes array[0],array[m],array[2m],.....array[km]and so on.
-
-    Once we find the interval (array[km] < X < array[(k+1)m]),we perform a linear search 
-    operation from the index km to find the element x.
-
-
-
-    Example : 
-    let array : [0,2,6,8,10,21,34,66,89,120,124,300,350,500,549,600]
-
-    len(array)  = 16 
-
-    key  = 66
-
-    Assume block size = 4
-
-    1 . Jump from index 0 to index 4 
-    2 . jump from index 4 ot index 8
-    3 . since element at index 8 (89) is greater than the key element (66) so we will jump back to index 4
-    4 . now from here we will perform linear search from index 4 to index 8 to get our key element 66
-
 
     """
 
@@ -299,13 +258,6 @@ class JumpSearch(object):
 class LinearSearch(object):
     """
     Linear Search Implementation
-
-    Linear Search knows as sequential search is an algoerithm for finding a target key value within a list.
-    it sequentially checks each element of the list for the target value until a match is found or until all
-    the elements have seen searched.
-
-    This is one of the most basic search algorithm
-
 
 
 
