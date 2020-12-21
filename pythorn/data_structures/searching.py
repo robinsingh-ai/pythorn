@@ -11,7 +11,7 @@ Programs List :
 """
 
 import inspect
-from data_structures.recursion import fibonacci
+from pythorn.data_structures.recursion import fibonacci
 import math
 
 
