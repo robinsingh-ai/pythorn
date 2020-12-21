@@ -41,52 +41,45 @@ Quick Start Guide
 Searching Programs
 ------------------
 
+
 .. automodule:: pythorn.data_structures.searching
-    
-    
 
     Binary Search
     -------------
 
     .. autoclass:: BinarySearch
-          
-         :members:
-
+       :members:
 
 
     Fibonacci Search
-    -----------------
-            
+    ----------------
 
     .. autoclass:: FibonacciSearch
-         :members:
-
-
+       :members:
+    
+    
     Interpolation Search
-    --------------------
-            
+    -------------------- 
 
     .. autoclass:: InterpolationSearch
-         :members:
-
-
+       :members:
+    
+    
     Jump Search
     -----------
-            
 
     .. autoclass:: JumpSearch
-         :members:
+       :members:
 
 
     Linear Search
     -------------
-            
 
     .. autoclass:: LinearSearch
-         :members:
+       :members:
 
 
-
+   
 
     
 
