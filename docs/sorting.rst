@@ -129,6 +129,65 @@ Following are the basic sorting algorithms
       - While not a terribly serious limitation, it does mean that Radix Sort's value for the number of digits in a key should not be considered constant
 
 
+- Merge Sort
+   + mergesort is a much more efficient sorting technique than those we saw in above section, at least in terms of speed. While the bubble, insertion, and selection sorts take ``O(N2)`` time, the mergesort is ``O(N*logN)``
+   + For example, if ``N`` (the number of items to be sorted) is ``10,000``, then ``N2`` is ``100,000,000``, while``N*logN`` is only ``40,000``
+   + If sorting this many items required 40 seconds with the mergesort, it would take almost 28 hours for the insertion sort.
+   + Merge Sort uses Divide and Conquer Strategy
+   + Using the Divide and Conquer technique, we divide a problem into subproblems. When the solution to each subproblem is ready, we 'combine' the results from the subproblems to solve the main problem.
+   + The mergesort is also fairly easy to implement. It’s conceptually easier than quicksort and the Shell short.
+   + The heart of the mergesort algorithm is the merging of two already-sorted arrays. Merging two sorted arrays ``A`` and ``B`` creates a third array, ``C``, that contains all the elements of ``A`` and ``B``, also arranged in sorted order.
+   + Similar to quicksort the list of element which should be sorted is divided into two lists. These lists are sorted independently and then combined. During the combination of the lists the elements are inserted (or merged) on the correct place in the list
+   + You divide the half into two quarters, sort each of the quarters, and merge them to make a sorted half
+   + How Mergesort Works?
+      - Assume the size of the left array is k, the size of the right array is m and the size of the total array is n (=k+m).
+      - Create a helper array with the size n
+      - Copy the elements of the left array into the left part of the helper array. This is position 0 until k-1.
+      - Copy the elements of the right array into the right part of the helper array. This is position k until m-1.
+      - Create an index variable i=0; and j=k+1
+      - Loop over the left and the right part of the array and copy always the smallest value back into the original array. Once i=k all values have been copied back the original array. The values of the right array are already in place.
+   + Efficiency
+      - As we noted, the mergesort runs in O(N*logN) time. There are ``24`` copies necessary to sort ``8`` items. ``Log28`` is ``3``, so ``8*log28`` equals ``24``. This shows that, for the case of 8 items, the number of copies is proportional to ``N*log2N``
+      - In the mergesort algorithm, the number of comparisons is always somewhat less than the number of copies.
+
+
+
+- Quick Sort
+   + Quicksort is an algorithm based on divide and conquer approach in which the array is split into subarrays and these sub-arrays are recursively called to sort the elements.
+   + Quicksort is a divide-and-conquer algorithm that involves choosing a pivot value from a data-set and splitting the set into two subsets: a set that contains all values less than the pivot and a set that contains all values greater than or equal to the pivot. The pivot/split process is recursively applied to each subset until there are no more subsets to split. The results are combined to form the final sorted set.
+   + The challenge of a quicksort is to determine a reasonable midpoint value for dividing the data into two groups. The efficiency of the algorithm is entirely dependent upon how successfully and accurate the midpoint value is selected
+   + Quicksort is undoubtedly the most popular sorting algorithm, and for good reason: In the majority of situations, it’s the fastest, operating in ``O(N*logN)`` time. (This is only true for internal or in-memory sorting; for sorting data in disk files, other algorithms may be better)
+   + To understand quicksort, you should be familiar with the partitioning algorithm.
+   + How Quick Sort Works?
+      - If the array contains only one element or zero elements then the array is sorted.
+      - If the array contains more then one element then:
+      - Select an element from the array. This element is called the "pivot element". For example select the element in the middle of the array.
+      - All elements which are smaller then the pivot element are placed in one array and all elements which are larger are placed in another array.
+      - Sort both arrays by recursively applying Quicksort to them.
+      - Combine the arrays.
+      - Quicksort can be implemented to sort "in-place". This means that the sorting takes place in the array and that no additional array need to be created.
+   + Quick Sort Algorithm::
+         quickSort(array, leftmostIndex, rightmostIndex)
+            if (leftmostIndex < rightmostIndex)
+               pivotIndex = partition(array,leftmostIndex, rightmostIndex)
+               quickSort(array, leftmostIndex, pivotIndex)
+               quickSort(array, pivotIndex + 1, rightmostIndex)
+
+            partition(array, leftmostIndex, rightmostIndex)
+            set rightmostIndex as pivotIndex
+            storeIndex = leftmostIndex - 1
+            for i <- leftmostIndex + 1 to rightmostIndex
+            if element[i] < pivotElement
+               swap element[i] and element[storeIndex]
+               storeIndex++
+            swap pivotElement and element[storeIndex+1]
+            return storeIndex + 1
+   + Efficiency
+      - Quicksort operates in ``O(N*logN)`` time. This is generally true of the divide-and-conquer algorithms, in which a recursive method divides a range of items into two groups and then calls itself to handle each group. 
+      - In this situation the logarithm actually has a base of ``2:`` The running time is proportional to ``N*log2N``
+
+
+
 
 
 Time Complexity And Space Complexity
