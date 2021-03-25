@@ -27,5 +27,5 @@ Recursion Programs
 ------------------
 
 .. automodule:: pythorn.data_structures.recursion
-
-    :members: 
+    .. autoclass:: fibonacci
+        :members: 
