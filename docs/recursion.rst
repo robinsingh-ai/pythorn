@@ -27,5 +27,4 @@ Recursion Programs
 ------------------
 
 .. automodule:: pythorn.data_structures.recursion
-    .. autofunction:: tower_of_hanoi
-        :members:
+    :members: tower_of_hanoi,binary_search
