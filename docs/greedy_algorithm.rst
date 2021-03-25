@@ -113,7 +113,7 @@ Greedy Programs
 
 
    .. autoclass:: Dijkstra
-       :members:
+       :members:dijkstra
 
 
 
