@@ -26,5 +26,6 @@ operations of stack: pop(), push(), tos(), isEmpty(), display().
 Recursion Programs
 ------------------
 
-.. automodule:: pythorn.data_structures.recursion.fibonacci 
-    :members: 
+.. automodule:: pythorn.data_structures.recursion
+    .. autofunction:: tower_of_hanoi
+        :members:
