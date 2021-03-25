@@ -28,4 +28,4 @@ Recursion Programs
 
 .. automodule:: pythorn.data_structures.recursion
 
-    :members: factorial
+    :members: 
