@@ -5,7 +5,7 @@
 Pythorn is a python module that contains Python-based minimal and clean example  implementations of popular data structures and all major algorithms!!
 Mainly for educational purposes
 
-[Xiaoya Esther](#Installation Robin)
+[Xiaoya Esther](#Installation-Robin)
 
 
 ## Features!
