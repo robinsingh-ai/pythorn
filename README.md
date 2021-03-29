@@ -6,7 +6,7 @@ Pythorn is a python module that contains Python-based minimal and clean example 
 Mainly for educational purposes
 
 
-
+[Robin](###Installation)
 
 ## Features!
 
@@ -16,7 +16,7 @@ Mainly for educational purposes
 
 
 
-# Installation 
+### Installation 
 
 Pythorn requires Python V3+
 
